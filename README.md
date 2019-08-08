@@ -32,8 +32,8 @@ dashboard.add(bar)
 dashboard.add(chart)
 
 #打开UI界面
-dashboard.render()
-#此时自动打开网页，在可在网页中进行图表的调整#
+dashboard.render()#此时自动打开网页，在可在网页中进行图表的调整#
+
 
 #预览结果
 dashboard.preview()
