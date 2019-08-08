@@ -17,6 +17,7 @@ pip install bs4 selenium pyecharts
 ```
 
 ## 使用方法
+本工具适合在交互式python环境中使用，如jupyter notebook等
 
 ```
 from pyecharts_dashboard.dashboard import Dashboard
@@ -32,11 +33,12 @@ dashboard.add(chart)
 
 #打开UI界面
 dashboard.render()
+#此时自动打开网页，在可在网页中进行图表的调整#
 
 #预览结果
 dashboard.preview()
 
-#设置分辨率，并刷新
+#设置分辨率，并刷新（如果需要根据电脑调整分辨率可使用以下方法，调整分辨率的目的在于生成的Dashboard能够刚好布满整个电脑屏幕）
 dashboard.resolution = (1920,1080)
 dashboard.render()
 
