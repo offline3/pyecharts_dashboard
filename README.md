@@ -24,7 +24,7 @@ from pyecharts_dashboard.dashboard import Dashboard
 ```
 
 ```
-#示例化对象，需设置浏览器类型
+#示例化对象，需设置浏览器类型(chrome 或 firefox)
 dashboard = Dashboard('chrome')
 
 #添加图纸pyecharts图表
